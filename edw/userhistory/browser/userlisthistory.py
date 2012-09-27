@@ -27,7 +27,13 @@ class UserListHistoryView(BrowserView):
 
 def get_member_list(context):
     membership_tool = getToolByName(context, 'portal_membership')
-    for member in membership_tool.listMembers():
+    memdata_tool = getToolByName(context, 'portal_memberdata')
+
+    # Get members and orphaned members
+    for member_id in memdata_tool._members:
+        member = membership_tool.getMemberById(member_id)
+        if member is None:
+            continue
         member_history = IAnnotations(member).get('login_history', None)
         date, ip = DT2dt(member.getProperty('login_time')), None
         if member_history:

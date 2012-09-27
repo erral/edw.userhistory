@@ -3,6 +3,9 @@ Changelog
 
 1.4-dev - (unreleased)
 ----------------------
+* Feature: enhanced user login history to take into
+  account all external users, not only the local users
+  [ghicaale refs #5542]
 
 1.3 - (2012-02-22)
 ------------------
