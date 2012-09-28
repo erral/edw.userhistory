@@ -1,6 +1,9 @@
 Changelog
 =========
 
+1.5-dev - (unreleased)
+----------------------
+
 1.4 - (2012-09-28)
 ------------------
 * Feature: added documentation and fixed pylint warning
