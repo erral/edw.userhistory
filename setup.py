@@ -1,12 +1,15 @@
 """ Installer
 """
-from setuptools import setup, find_packages
 import os
+from os.path import join
+from setuptools import setup, find_packages
 
-version = open('version.txt').read()
+NAME = 'edw.userhistory'
+PATH = NAME.split('.') + ['version.txt']
+VERSION = open(join(*PATH)).read().strip()
 
-setup(name='edw.userhistory',
-      version=version,
+setup(name=NAME,
+      version=VERSION,
       description="User login history",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
