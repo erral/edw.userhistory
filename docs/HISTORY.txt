@@ -1,6 +1,9 @@
 Changelog
 =========
 
+1.6-dev - (unreleased)
+----------------------
+
 1.5 - (2012-09-28)
 ------------------
 * Bugfix: fixed version.txt location. Added README.rst
