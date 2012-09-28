@@ -1,8 +1,8 @@
 Changelog
 =========
 
-1.4-dev - (unreleased)
-----------------------
+1.4 - (2012-09-28)
+------------------
 * Feature: added documentation and fixed pylint warning
   [ghicaale refs #5542]
 * Feature: enhanced user login history to take into
@@ -34,3 +34,4 @@ Changelog
 ------------------
 * Initial release
   [david, (Eau de Web)]
+
