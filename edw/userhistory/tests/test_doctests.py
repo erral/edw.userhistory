@@ -1,3 +1,5 @@
+""" Doc tests
+"""
 import unittest
 import doctest
 from plone.testing import layered
@@ -8,6 +10,8 @@ OPTIONFLAGS = (doctest.REPORT_ONLY_FIRST_FAILURE |
                doctest.NORMALIZE_WHITESPACE)
 
 def test_suite():
+    """ Suite
+    """
     suite = unittest.TestSuite()
     suite.addTests([
         layered(doctest.DocFileSuite(

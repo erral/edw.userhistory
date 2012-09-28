@@ -3,33 +3,34 @@ Changelog
 
 1.4-dev - (unreleased)
 ----------------------
+* Feature: added documentation and fixed pylint warning
+  [ghicaale refs #5542]
 * Feature: enhanced user login history to take into
   account all external users, not only the local users
   [ghicaale refs #5542]
 
 1.3 - (2012-02-22)
 ------------------
-* Fix: using proper date format
+* Bugfix: using proper date format
   [david, (Eau de Web)]
 
 1.2 - (2012-02-22)
 ------------------
-* Fix: proper date sorting
+* Bugfix: proper date sorting
   [david, (Eau de Web)]
 
 1.1 - (2012-01-06)
 ------------------
-* Fix: adding tests
+* Bugfix: adding tests
   [david, (Eau de Web)]
-* Fix: updating package layout for eggmonkey
+* Bugfix: updating package layout for eggmonkey
   [david, (Eau de Web)]
-* Fix: don't log user logins if no user information is available in
+* Bugfix: don't log user logins if no user information is available in
   portal_membership. This solves login issues with Products.PloneSurvey which
   uses a separate user folder
   [david, (Eau de Web)]
 
-1.0 - (01-08-2011)
+1.0 - (2011-08-01)
 ------------------
 * Initial release
   [david, (Eau de Web)]
-
