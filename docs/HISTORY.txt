@@ -3,6 +3,9 @@ Changelog
 
 1.6-dev - (unreleased)
 ----------------------
+* Change: Added missing package includes in order to be compatible
+  with Plone >= 4.1
+  [olimpiurob refs #22037]
 
 1.5 - (2012-09-28)
 ------------------

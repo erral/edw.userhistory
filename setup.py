@@ -27,6 +27,7 @@ setup(name=NAME,
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'plone.app.portlets'
           # -*- Extra requirements: -*-
       ],
       extras_require = {
