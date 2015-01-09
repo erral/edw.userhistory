@@ -1,6 +1,9 @@
 Changelog
 =========
 
+1.7-dev - (unreleased)
+----------------------
+
 1.6 - (2015-01-09)
 ------------------
 * Change: Added missing package includes in order to be compatible
