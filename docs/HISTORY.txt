@@ -3,6 +3,7 @@ Changelog
 
 1.7-dev - (unreleased)
 ----------------------
+* Use getSite to access portal_membership and don't throw an exception with zope-root users [erral]
 
 1.6 - (2015-01-09)
 ------------------
