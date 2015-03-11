@@ -1,5 +1,5 @@
 from datetime import datetime
-
+from zope.site.hooks import getSite
 from zope.annotation.interfaces import IAnnotations
 from persistent.list import PersistentList
 
@@ -19,8 +19,8 @@ def get_ip(request):
 def userLoggedIn(user, event):
     userip = get_ip(user.REQUEST)
     logintime = datetime.now()
-
-    member = user.portal_membership.getMemberById(user.getId())
+    site = getSite()
+    member = site.portal_membership.getMemberById(user.getId())
     if member is None:
         return
     anno = IAnnotations(member)
